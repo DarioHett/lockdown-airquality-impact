@@ -1,0 +1,13 @@
+name: airq
+channels:
+  - conda-forge                     # We added a third party channel
+  - defaults
+dependencies:
+  - python=3.6   # or 2.7
+  - numpy
+  - jupyter
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+
